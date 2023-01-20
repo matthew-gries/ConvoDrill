@@ -25,4 +25,6 @@ Some TODOs and areas of growth include:
   * One such example includes having a word list where parts of an answer can be subsituted for a word in the list
  * Ability to see other people's public conversations + other "social media" aspects (friends lists, etc.)
  * More language support (largely depends on the polyfill)
+ * A proper index page rather than a redirect
   
+You can access ConvoDrill [here](https://www.convodrill.com).
