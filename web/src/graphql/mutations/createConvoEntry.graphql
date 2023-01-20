@@ -1,0 +1,8 @@
+mutation CreateConvoEntry($input: ConvoEntryInput!) {
+  createConvoEntry(input: $input) {
+    id
+    label
+    promptText
+    answerSuggestion
+  }
+}

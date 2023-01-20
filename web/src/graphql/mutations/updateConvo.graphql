@@ -1,0 +1,9 @@
+mutation UpdateConvo($input: ConvoInput!, $updateConvoId: String!) {
+  updateConvo(input: $input, id: $updateConvoId) {
+    id
+    title
+    targetLanguage
+    nativeLanguage
+    userId
+  }
+}

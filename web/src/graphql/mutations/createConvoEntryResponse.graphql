@@ -1,0 +1,28 @@
+mutation CreateConvoEntryResponse($input: ConvoEntryResponseInput!) {
+  createConvoEntryResponse(input: $input) {
+    childConvoEntryId
+    id
+    label
+    responseText
+    parentConvoEntry {
+      id
+      isRoot
+      label
+      promptText
+      answerSuggestion
+      parentConvoEntryResponses {
+        id
+      }
+    }
+    childConvoEntry {
+      id
+      isRoot
+      label
+      promptText
+      answerSuggestion
+      childConvoEntryResponses {
+        id
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+query Convo($convoId: String!) {
+  convo(id: $convoId) {
+    id
+    targetLanguage
+    nativeLanguage
+    title
+    convoEntries {
+      id
+      label
+      promptText
+      answerSuggestion
+    }
+    rootConvoEntry {
+      id
+      label
+      promptText
+      answerSuggestion
+    }
+  }
+}

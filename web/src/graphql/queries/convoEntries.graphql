@@ -1,0 +1,23 @@
+query ConvoEntries($convoId: String!) {
+  convoEntries(convoId: $convoId) {
+    id
+    promptText
+    label
+    answerSuggestion
+    isRoot
+    childConvoEntryResponses {
+      id
+      label
+      responseText
+      parentConvoEntryId
+      childConvoEntryId
+    }
+    parentConvoEntryResponses {
+      id
+      label
+      responseText
+      parentConvoEntryId
+      childConvoEntryId
+    }
+  }
+}

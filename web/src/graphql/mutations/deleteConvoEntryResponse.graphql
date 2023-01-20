@@ -1,0 +1,3 @@
+mutation DeleteConvoEntryResponse($parentConvoEntryId: String!, $deleteConvoEntryResponseId: String!) {
+  deleteConvoEntryResponse(parentConvoEntryId: $parentConvoEntryId, id: $deleteConvoEntryResponseId)
+}

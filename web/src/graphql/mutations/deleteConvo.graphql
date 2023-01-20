@@ -1,0 +1,3 @@
+mutation DeleteConvo($deleteConvoId: String!) {
+  deleteConvo(id: $deleteConvoId)
+}

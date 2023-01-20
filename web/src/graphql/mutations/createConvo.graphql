@@ -1,0 +1,8 @@
+mutation CreateConvo($input: ConvoInput!) {
+  createConvo(input: $input) {
+    id
+    targetLanguage
+    nativeLanguage
+    title
+  }
+}

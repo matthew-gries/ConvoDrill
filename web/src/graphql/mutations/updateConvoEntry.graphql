@@ -1,0 +1,9 @@
+mutation UpdateConvoEntry($input: ConvoEntryInput!, $updateConvoEntryId: String!) {
+  updateConvoEntry(input: $input, id: $updateConvoEntryId) {
+    id
+    convoId
+    answerSuggestion
+    promptText
+    label
+  }
+}

@@ -1,0 +1,17 @@
+query Convos($limit: Int!, $skip: Int!) {
+  convos(limit: $limit, skip: $skip) {
+    hasMore
+    convos {
+      id
+      title
+      nativeLanguage
+      targetLanguage
+      rootConvoEntry {
+        id
+        label
+        promptText
+        answerSuggestion
+      }
+    }
+  }
+}
