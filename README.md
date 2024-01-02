@@ -26,5 +26,4 @@ Some TODOs and areas of growth include:
  * Ability to see other people's public conversations + other "social media" aspects (friends lists, etc.)
  * More language support (largely depends on the polyfill)
  * A proper index page rather than a redirect
-  
-You can access ConvoDrill [here](https://www.convodrill.com).
+
